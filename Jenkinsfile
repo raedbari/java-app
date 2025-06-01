@@ -24,17 +24,19 @@
 pipeline{
     agent any 
     stages{
-        stage('build')
+        stage('build'){
           steps{
             script{
                 echo "in build stage "
             }
           }
-          stage('test')
+        }
+          stage('test'){
            steps{
             script{
                 echo "in test stage"
             }
            }
+          }
     }
 }
