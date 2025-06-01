@@ -16,7 +16,7 @@ node{
         sh'echo "raed in fa stage"'
        }
        else {
-        sh'echo "echo "raed in main branch"'
+        sh'echo "raed in main branch"'
        }
     }
 }
